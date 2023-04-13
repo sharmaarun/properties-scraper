@@ -1,0 +1,22 @@
+{
+  "name": "propswit-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index",
+  "scripts": {
+    "start": "ts-node-dev --respawn  src/index.ts",
+    "gendocs":"typedoc ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/request": "^2.48.8",
+    "ts-node-dev": "^2.0.0",
+    "typedoc": "^0.24.1"
+  },
+  "dependencies": {
+    "puppeteer": "^19.9.0",
+    "request": "^2.88.2"
+  }
+}

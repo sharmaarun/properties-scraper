@@ -1,0 +1,12 @@
+{
+    "scraper": {
+        "headless": false,
+        "dataDir": "data"
+    },
+    "scripts": {
+        "remax.ca/listings.ts": {
+            "scrapeDomain": "remax.ca",
+            "url": "https://api.remax.ca/api/v1/listings/gallery/?from=${from}&size=20&east=-79.21152292304687&north=43.74010468310231&south=43.56622145096183&west=-79.55484567695312&sortKey=1&sortDirection=1"
+        }
+    }
+}
